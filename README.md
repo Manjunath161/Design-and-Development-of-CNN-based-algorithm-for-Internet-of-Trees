@@ -25,3 +25,22 @@ The algorithms developed for image classification can be used to identify distin
 	 Database of all the trees can be maintained.
 
 	Forest fires can be detected.
+
+#ALGORITHM
+
+	step1:Import all the Libraries .
+
+	step2:Download the dataset and upload it in main program.
+
+	step3:Process the data using librosa.
+
+	step4:Extract the features using MFCC  
+
+	step5:Pass those important features through deep neural network.
+
+	step6:Training the model by creating training loop.
+
+	step7:Testing and validation of model by passing the different audio files.
+
+	step8:Observe the predicted output and check for the accuracy and losses in data.
+
