@@ -3,7 +3,7 @@ import os
 import math
 import librosa
 
-DATASET_PATH = "E:\Program Files\All_ pgms\_Dataset"
+DATASET_PATH = "Dataset Path"
 JSON_PATH = "data_5.json"
 SAMPLE_RATE = 22050
 TRACK_DURATION = 10 # measured in seconds
