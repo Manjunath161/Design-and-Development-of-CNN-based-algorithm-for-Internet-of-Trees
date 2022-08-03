@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.optimizers import Adam
 TF_FORCE_GPU_ALLOW_GROWTH=True
 
-DATA_PATH = "E:\Program Files\All_ pgms\data_5.json"
+DATA_PATH = "data_5.json"
 
 
 def load_data(data_path):
@@ -164,4 +164,4 @@ if __name__ == "__main__":
     # predict sample
     # predict(model, X_to_predict, y_to_predict)
    
-model.save("E:\Program Files\All_ pgms\Project_Model")
+model.save("Project_Model")
