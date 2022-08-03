@@ -9,13 +9,19 @@ The algorithms developed for image classification can be used to identify distin
 #MOTIVATION
 
 	The motive of this project is to develop an anti-smuggling system that would be useful in the protected forest areas
+
 	Sneaking of the trees such as sandal,red sander, teak, etc is a major national concern.
+
 	To avoid smuggling and to spare the woodlands around the world ,we have come up with an idea that designs a system which is prepared to prevent the forest from fire accidents.
 
 #BENEFITS
 
 	If anybody tries to cut the tree the location will be tracked and information will be sent to control room .
+
 	The trees are connected to sensors Individual attention is given on all the trees. 
+
 	It is easier to install And operate with good results as sensors work accurately.
+
 	 Database of all the trees can be maintained.
+
 	Forest fires can be detected.
