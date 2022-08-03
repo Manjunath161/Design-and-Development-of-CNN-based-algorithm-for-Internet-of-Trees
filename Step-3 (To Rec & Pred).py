@@ -17,7 +17,7 @@ import os
 import soundfile as sf
 from twilio.rest import Client
 
-model=tf.keras.models.load_model('E:\Program Files\All_ pgms\Project_Model')
+model=tf.keras.models.load_model('Dataset path')
     
 def record():
     fs = 44100  # Sample rate
@@ -89,15 +89,15 @@ def convert():
     return(mfccs)
 
 def send_msg(msg) :
-    account_sid = 'AC81c97d75feba18bb76e20fea9044b2ec'
-    auth_token = '664db50ca2f13a40bac4c50085a9b6ef'
+    account_sid = 'Ur Id'
+    auth_token = 'Ur tocken'
     client = Client(account_sid, auth_token)
 
     message = client.messages \
         .create(
             body=msg,
-            from_='+19855319332',
-             to='+919036619712'
+            from_='Ur Twilio no',
+             to='Ur No'
      )
 
 
